@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PokeDB</title>
+<title>DeinoBase</title>
 </head>
 <body>
 
-<center><h1 id ="Title"> DienoBase</h1></center>
+<center><h1 id ="Title"> DeinoBase</h1></center>
 <! --The Title of this Weebpage -->
 
 
 
 
-<div><center> <input id="PokemonSearch" type = "text" placeholder="Search Pokemon">  
-    <button  id = "SearchButton"  onclick='SearchPokemon()'><img width="24" height="24" src="Assets/Magnifying Glass.svg"/> </button>  </center></div>
- 
+<div id="SearchBar">
+    <center><input id="PokemonSearch" type = "text" placeholder="Search Pokemon">  
+    <button  id = "SearchButton"  onclick='SearchPokemon()'><img width="24" height="24" src="Assets/Magnifying Glass.svg"/> </button>  </center>
+</div>
+<! --The Search Bar -->
+
+<div class="PokemonData">
+    <center><p id="PokemonDexNumber"> </p></center> 
+    <center><p id="PokemonName"> </p></center> 
+    <center><img id="PokemonImageNormal"> </center>
+    <center><img id="PokemonImageShiny"> </center>
+    <center><p id="PokemonType1"> </p> <p id="PokemonType2"></center>
+    <center><p id="PokemonHeight"> </p></center>
+    <center><p id="PokemonWeight"> </p></center>
+    <center><p id="PokemonAbility1"> </p></center>
+    <center><p id="PokemonAbility2"> </p></center>
+    <center><p id="PokemonAbilityHidden"> </p></center>
+    <center><p id="PokemonStat1"> </p></center>
+    <center><p id="PokemonStat2"> </p></center>
+    <center><p id="PokemonStat3"> </p></center>
+    <center><p id="PokemonStat4"> </p></center>
+    <center><p id="PokemonStat5"> </p></center>
+    <center><p id="PokemonStat6"> </p></center>
+    <center><p id="PokemonMoves"> </p></center>
+    <center><p id="PokemonEvolution"> </p></center>
+    <center><p id="PokemonDescription"> </p></center>
+</div>
 
 
-
-
+<script type="text/javascript" src = "Home.js"> </script>
 
 
 
 </body>
 
-<script src="Home.js"></script>
+
 <link rel="stylesheet" href="Home.css">
 
 </html>
