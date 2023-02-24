@@ -5,7 +5,9 @@
 </head>
 <body>
 
-<center><h1 id ="Title"> DeinoBase</h1></center>
+<img src="https://www.pngmart.com/files/22/Deino-Pokemon-Transparent-PNG.png" id="DeinoIMG">
+
+<center><h1 id ="Title" >DeinoBase</h1></center>
 <! --The Title of this Weebpage -->
 
 
@@ -17,26 +19,58 @@
 </div>
 <! --The Search Bar -->
 
-<div class="PokemonData">
-    <center><p id="PokemonDexNumber"> </p></center> 
-    <center><p id="PokemonName"> </p></center> 
-    <center><img id="PokemonImageNormal"> </center>
-    <center><img id="PokemonImageShiny"> </center>
-    <center><p id="PokemonType1"> </p> <p id="PokemonType2"></center>
-    <center><p id="PokemonHeight"> </p></center>
+
+<center><p id="Error"> </p></center> 
+
+<div id="PokemonData" hidden="True">
+    <center><p id="PokemonDexNumberAndName"> </p></center> 
+    <center><p id="PokemonGeneration"> </p></center>
+    <center><p>Pictures:</p></center>
+    <center><table>
+        <tr>
+            <th>Male</th>
+            <th id="FemaleTableTag" hidden="true">Female</th>
+            <th>Shiny</th>
+            <th id="FemaleTableTag" hidden="true">Female Shiny</th>
+        </tr>
+        <tr>
+            <td><img id="Pokemon"> </td>
+            <td id="FemaleTableTag" hidden="true"> <img id="PokemonFemale"> </td>
+            <td > <img id="PokemonShiny"> </td>
+            <td id="FemaleTableTag" hidden="true"> <img id="PokemonFemaleShiny"> </td>
+    </table></center>
+    <center><p>Types:  </p></center>
+    <div style="display: flex; justify-content: space-between;">
+        <center><span style="color: black" id="PokemonType1" > </span> </center>
+        <center><span style="color: black" id="PokemonType2">  </span></center>
+    </div>
+        <center><p id="PokemonHeight"> </p></center>
     <center><p id="PokemonWeight"> </p></center>
-    <center><p id="PokemonAbility1"> </p></center>
-    <center><p id="PokemonAbility2"> </p></center>
+    <center><p id="PokemonAbilities"> </p></center>
     <center><p id="PokemonAbilityHidden"> </p></center>
-    <center><p id="PokemonStat1"> </p></center>
-    <center><p id="PokemonStat2"> </p></center>
-    <center><p id="PokemonStat3"> </p></center>
-    <center><p id="PokemonStat4"> </p></center>
-    <center><p id="PokemonStat5"> </p></center>
-    <center><p id="PokemonStat6"> </p></center>
+    <table id="StatTable">
+        <tr>
+            <th>HP</th>
+            <th>Attack</th>
+            <th>Defense</th>
+            <th>Sp. Attack</th>
+            <th>Sp. Defense</th>
+            <th>Speed</th>
+        </tr>
+        <tr>
+            <td id="PokemonHP"> </td>
+            <td id="PokemonAttack"> </td>
+            <td id="PokemonDefense"> </td>
+            <td id="PokemonSpAttack"> </td>
+            <td id="PokemonSpDefense"> </td>
+            <td id="PokemonSpeed"> </td>
+    </table>
     <center><p id="PokemonMoves"> </p></center>
     <center><p id="PokemonEvolution"> </p></center>
     <center><p id="PokemonDescription"> </p></center>
+    <center><p id="PokemonLocation"> </p></center>
+    <center><p id="PokemonEggGroup"> </p></center>
+
 </div>
 
 
@@ -50,5 +84,3 @@
 <link rel="stylesheet" href="Home.css">
 
 </html>
-
-

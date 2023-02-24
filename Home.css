@@ -1,7 +1,12 @@
+
+
+
+
 #PokemonSearch {
+    border-color: black;
     border-radius: 20px;
     background-color: transparent;
-    color: rgb(0, 0, 0);
+    color: rgb(167, 167, 167);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -26,13 +31,64 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(167, 167, 167);
 }
 
-.PokemonData {
+#PokemonData {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(167, 167, 167);
 }
+
+
+
+
+#DeinoIMG {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 625px;
+    top: 110px;
+}
+
+body {
+    background-color: rgb(10, 38, 71);
+    
+}
+
+#SearchButton:hover {
+    cursor: pointer;
+}
+
+#SearchButton:active {
+    transform: translateY(4px);
+}
+
+#SearchButton:focus {
+    outline: none;
+}
+
+#PokemonSearch:focus {
+    outline: none;
+}
+
+#Error {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(167, 167, 167);
+    position: relative;
+    top: 50px;
+}
+
+#StatTable {
+    position: relative;
+    width: 5%;
+    height: 25%;
+    Bottom: 100px;
+}
+
+ 
